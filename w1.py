@@ -1,5 +1,2 @@
-from _typeshed import HasFileno
-#123
-
-input your ans in here
-Hi
+a = 5
+print("a = ",a,"Square of a: " ,a**2)
