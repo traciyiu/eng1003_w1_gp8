@@ -1,0 +1,27 @@
+def put5():#function5
+    print('Number guessing game')
+    round=0
+    st=1
+    import random
+    max=random.randint(1,200)
+    print('The range for this game is  1 - '+str(max))
+    num=random.randint(1,int(max))
+    gas=int(input('Make a guess:'))
+    while gas!=num:
+        if st<=gas<num:
+            st=gas
+            print("The range is now "+str(st)+"-"+str(max))
+            round+=1
+        elif num<gas<=max:
+            max=gas
+            print("The range is now "+str(st)+"-"+str(max))
+            round+=1
+        else:
+            print("Are you serious? Wrong Number!")
+        gas2=int(input('Make a guess:'))
+        gas=gas2
+    round+=1
+    if round==1:
+       print("Bingo! You find the answer by only one attempt!")
+    else:
+       print("Bingo! You use "+str(round)+" attemps to reach the answer!") 
