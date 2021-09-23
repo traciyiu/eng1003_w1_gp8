@@ -1,1 +1,7 @@
-
+#我做的是function2，整合时记得用2编号。
+def put2():
+    a=5
+    b=7
+    c=9
+    sum=a+b+c
+    print("a="+str(a)+"  b="+str(b)+"  c="+str(c)+"  sum="+str(sum))
