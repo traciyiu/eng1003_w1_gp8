@@ -1,0 +1,77 @@
+#For group leader
+print("This is ENG1003's week 1 Tutorial Programming task")   
+cycle=0
+def put1():#function1
+    a=int(input('Height：'))
+    for _ in range(1,a+1):
+        if a>=0:
+            print('xxx')     
+        else:
+            print('wrong number')
+def put2():#function2
+    print("enter the function number to be excuted:")
+    a=input("The first number:")
+    b=input("The second number:")
+    sum=int(a)+int(b)
+    print('The sum is:'+str(sum))
+def put3():#function3
+    a=int(input('list length:'))
+    b=0
+    for _ in range(1,a+1):
+        b+=1
+    print(str(b))
+def put4():#function4
+    a=int(input('list length:'))
+    for _ in range(1,a+1):
+        if a>=0:
+            for _ in range(1,a+1):
+              print('[]',end='')
+            print('\n')     
+        else:
+            print('wrong number')
+def put5():#function5
+    print('Number guessing game')
+    round=0
+    st=1
+    import random
+    max=random.randint(1,200)
+    print('The range for this game is  1 - '+str(max))
+    num=random.randint(1,int(max))
+    gas=int(input('Make a guess:'))
+    while gas!=num:
+        if st<=gas<num:
+            st=gas
+            print("The range is now "+str(st)+"-"+str(max))
+            round+=1
+        elif num<gas<=max:
+            max=gas
+            print("The range is now "+str(st)+"-"+str(max))
+            round+=1
+        else:
+            print("Are you serious? Wrong Number!")
+        gas2=int(input('Make a guess:'))
+        gas=gas2
+    round+=1
+    if round==1:
+       print("Bingo! You find the answer by only one attempt!")
+    else:
+       print("Bingo! You use "+str(round)+" attemps to reach the answer!") 
+while cycle==0:
+    ilt=input("Enter the function number to be executed:")
+    if ilt=="1":
+        put1()
+    elif ilt=="2":
+        put2()
+    elif ilt=="3":
+        put3()
+    elif ilt=="4":
+        put4()
+    elif ilt=="5":
+        put5()
+    else:
+        print("Wrong Number")
+    reset=input("Press 'reset' to start again.")
+    if reset=="reset":
+        cycle=0
+    else :
+        cycle=1
