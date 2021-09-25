@@ -362,10 +362,12 @@ def main():
     
     #set minus cost area   !!!!!(for task 3)
     pc_x, pc_y = [], []
-    for i in range(0, 16):
-        for j in range(12, 13):
+    for i in range(-2, 1):
             pc_x.append(i)
-            pc_y.append(j)
+            pc_y.append(4-i)
+    for i in range(11, 24):
+            pc_x.append(i)
+            pc_y.append(23-i)
 
     if show_animation:  # pragma: no cover
         plt.plot(ox, oy, ".k") # plot the obstacle
