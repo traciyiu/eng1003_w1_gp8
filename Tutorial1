@@ -1,6 +1,7 @@
 #For group leader
 print("This is ENG1003's week 1 Tutorial Programming task")   
 cycle=0
+
 def put1():#function1
     a=int(input('Height：'))
     for _ in range(1,a+1):
@@ -8,27 +9,32 @@ def put1():#function1
             print('xxx')     
         else:
             print('wrong number')
+            
 def put2():#function2
     print("enter the function number to be excuted:")
     a=input("The first number:")
     b=input("The second number:")
     sum=int(a)+int(b)
     print('The sum is:'+str(sum))
+    
 def put3():#function3
-    a=int(input('list length:'))
-    b=0
-    for _ in range(1,a+1):
-        b+=1
-    print(str(b))
+    x = int(input('List length: '))
+    while(x > 0):
+        print(x)
+        x-=1
+        
 def put4():#function4
-    a=int(input('list length:'))
-    for _ in range(1,a+1):
-        if a>=0:
-            for _ in range(1,a+1):
-              print('[]',end='')
-            print('\n')     
+    x = int(input('Square Size: '))
+    print("")
+
+    for i in range(0,x):
+        if i >= 0:
+            for i in range(0,x):
+              print('[ ]',end='')
+            print("")
         else:
             print('wrong number')
+            
 def put5():#function5
     print('Number guessing game')
     round=0
@@ -56,6 +62,7 @@ def put5():#function5
        print("Bingo! You find the answer by only one attempt!")
     else:
        print("Bingo! You use "+str(round)+" attemps to reach the answer!") 
+       
 while cycle==0:
     ilt=input("Enter the function number to be executed:")
     if ilt=="1":
