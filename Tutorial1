@@ -27,13 +27,13 @@ def put4():#function4
     x = int(input('Square Size: '))
     print("")
 
-    for i in range(0,x):
-        if i >= 0:
+    if x>=0:
+        for i in range(0,x):
             for i in range(0,x):
-              print('[ ]',end='')
+                print('[ ]',end='')
             print("")
-        else:
-            print('wrong number')
+    else:
+        print('wrong number')
             
 def put5():#function5
     print('Number guessing game')
