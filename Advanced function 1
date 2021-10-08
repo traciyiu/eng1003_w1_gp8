@@ -1,0 +1,4 @@
+height = int(input("please give the height: "))
+while height > 0:
+    print("XXX", end="\n")
+    height -= 1
