@@ -1,5 +1,5 @@
 d = int(input("Square size: "))
 for i in range(d):
     for o in range(d-1):
-        print(' [] ', end='')
-    print('[]')
+        print('[ ]', end='')
+    print('[ ]')
