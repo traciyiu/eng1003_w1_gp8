@@ -1,0 +1,4 @@
+c = int(input("please give the length of the list: "))
+while c > 0:
+    print(c)
+    c -= 1
