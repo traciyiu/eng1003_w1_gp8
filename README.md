@@ -3,22 +3,7 @@
       <a href="#Background-of-Path-Planning-to-Aviation-Engineering">Background of Path Planning to Aviation Engineering</a>
  
  
- # d
- # d
- # d
- # d
- # d
- # d
- # d
- # d
- # d
- # d
- # d
- # d
- # d
- # d
- # d
-  
+
  
   <!-- Background of Path Planning to Aviation Engineering -->
   ### Background of Path Planning to Aviation Engineering
