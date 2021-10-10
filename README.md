@@ -9,14 +9,16 @@
  <br />
  
 
- 
+ <li>
   <!-- Background of Path Planning to Aviation Engineering -->
   ## Background of Path Planning to Aviation Engineering
   
+ <li>
   <!-- Theory of Path Planning Algorithm -->
   ## Theory of Path Planning Algorithm
  
-   <!-- Introduction of the Engineering Tools -->
+ <li>
+  <!-- Introduction of the Engineering Tools -->
   ## Introduction of the Engineering Tools
  
  ###    A.Python
