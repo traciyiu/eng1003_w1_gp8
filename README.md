@@ -37,7 +37,7 @@ balabala
 
 ## b.Github
 
-balabala
+GitHub is a web-based interface that uses Git, the open source version control software that lets multiple people make separate changes to web pages at the same time. As Carpenter notes, because it allows for real-time collaboration, GitHub encourages teams to work together to build and edit their site content.
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/KeiraXu03/ENG1003_w1_9/blob/main/README.md)
 
