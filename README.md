@@ -37,7 +37,29 @@ balabala
 
 ## b.Github
 
-GitHub is a web-based interface that uses Git, the open source version control software that lets multiple people make separate changes to web pages at the same time. As Carpenter notes, because it allows for real-time collaboration, GitHub encourages teams to work together to build and edit their site content.
+### What is Github?
+
+1. GitHub is a web-based interface that uses Git 
+2. It lets multiple people make separate changes to web pages at the same time
+3. Having over 40 million users and more than 190 million repositories[1]
+
+
+### When did it start?
+
+1. It began on October 19, 2007.
+2. The website was launched as a beta version in February 2008 and officially launched in April
+
+
+### Main Function of Github
+
+1. document
+2. Issue tracking system
+3. Wiki
+4. task list
+5. Gantt chart
+6. Visual location analysis
+7. Preview 3D rendering files
+8. Preview PSD files of Adobe Photoshop, and even compare different versions of the same file.
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/KeiraXu03/ENG1003_w1_9/blob/main/README.md)
 
@@ -174,6 +196,6 @@ balabala
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/KeiraXu03/ENG1003_w1_9/blob/main/README.md)
 # Reference
-
+[1]“User search.” (2021). Github. https://github.com/search?q=type:user&type=Users
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/KeiraXu03/ENG1003_w1_9/blob/main/README.md)
