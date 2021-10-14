@@ -41,16 +41,20 @@ balabala
 
 1. GitHub is a web-based interface that uses Git 
 2. It lets multiple people make separate changes to web pages at the same time
-3. Having over 40 million users and more than 190 million repositories[1]
+3. Lets different people share their code 
+4. Having over 40 million users and more than 190 million repositories[1]
+
 
 
 ### When did it start?
 
-1. It began on October 19, 2007.
+1. It began on October 19, 2007
 2. The website was launched as a beta version in February 2008 and officially launched in April
 
 
 ### Main Function of Github
+
+GitHub is usually used for software development. GitHub also supports the following formats and functions
 
 1. document
 2. Issue tracking system
