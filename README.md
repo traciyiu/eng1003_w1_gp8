@@ -19,13 +19,13 @@
 
 balabala
 
-[![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md#Group8's Report For PolyU ENG1003 AAE Freshman Project)
+[![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 
 # Theory of Path Planning Algorithm 
 
 balabala
 
-[![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md#Group8's Report For PolyU ENG1003 AAE Freshman Project)
+[![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 
 # Introduction of the Engineering Tools 
 
@@ -34,7 +34,7 @@ balabala
 
 balabala
 
-[![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md#Background-of-Path-Planning-to-Aviation-Engineering)
+[![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 
 ## b.Github
 ![1](https://github.com/LiTaiZong/pictures/blob/main/pro8.png)
@@ -67,7 +67,7 @@ GitHub is usually used for software development. GitHub also supports the follow
 7. Preview 3D rendering files
 8. Preview PSD files of Adobe Photoshop, and even compare different versions of the same file.
 
-[![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md#Group8's Report For PolyU ENG1003 AAE Freshman Project)
+[![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 
 # Task 1 Methodology results and Discussion
 ## Methodology:
@@ -129,7 +129,7 @@ for i in range(0, 20):
 
 ![5](https://github.com/LiTaiZong/pictures/blob/main/pro4.png)
 
-[![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md#Group8's Report For PolyU ENG1003 AAE Freshman Project)
+[![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 
 # Task 2 Methodology results and Discussion
 ## Methodology:
@@ -146,7 +146,7 @@ for i in range(0, 20):
 ****
 **_By trying we found that when both variables are taken as 20, the total cost is the least_**
 
-[![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md#Group8's Report For PolyU ENG1003 AAE Freshman Project)
+[![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 
 # task 3 Methodology results and Discussion
 ## Methodology:
@@ -189,7 +189,7 @@ for i in range(0, 20):
 
 ![5](https://github.com/LiTaiZong/pictures/blob/main/pro7.png)
 
-[![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md#Group8's Report For PolyU ENG1003 AAE Freshman Project)
+[![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 
 # Reflective Essay
 ### 1
@@ -201,8 +201,8 @@ balabala
 ### 5
 
 
-[![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md#Group8's Report For PolyU ENG1003 AAE Freshman Project)
+[![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 # Reference
 [1]“User search.” (2021). Github. https://github.com/search?q=type:user&type=Users
 
-[![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md#Group8's Report For PolyU ENG1003 AAE Freshman Project)
+[![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
