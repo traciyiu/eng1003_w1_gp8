@@ -24,7 +24,10 @@ balabala
 
 # Theory of Path Planning Algorithm 
 
-balabala
+The method used in path planning algorithm is A-star. As Baijayanta Roy[[1]](#jump6) points, A-star is one of the most successful search algorithms to find the shortest path between nodes or graphs.
+The advantage of A-star is its heuristic function. The heuristic function includes two aspects.
+One is the exact cost from the starting node to the next node. The other is the estimated cost from the next node to the goal node. And the heuristic function combines them together to calculate the cost of the neighboring node. By using this method, it’s much easier for path planning to find the best path from the starting node to the goal node
+
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 
@@ -45,7 +48,7 @@ balabala
 1. GitHub is a web-based interface that uses Git 
 2. It lets multiple people make separate changes to web pages at the same time
 3. Lets different people share their code 
-4. Having over 40 million users and more than 190 million repositories[[1]](#jump6)
+4. Having over 40 million users and more than 190 million repositories[[2]](#jump7)
 
 
 
@@ -204,7 +207,11 @@ balabala
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 # Reference
-<span id="jump6">[1]</span> *“User search.” (2021). Github. https://github.com/search?q=type:user&type=Users*  
+
+<span id="jump6">[1]</span> *B. Roy “A-Star Search algorithm with step-by-step code” (2019).Github. https://towardsdatascience.com/a-star-a-search-algorithm-eb495fb156bb*  
+*  
+
+<span id="jump7">[2]</span> *“User search.” (2021). Github. https://github.com/search?q=type:user&type=Users*  
 
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
