@@ -44,7 +44,7 @@ balabala
 1. GitHub is a web-based interface that uses Git 
 2. It lets multiple people make separate changes to web pages at the same time
 3. Lets different people share their code 
-4. Having over 40 million users and more than 190 million repositories[1]
+4. Having over 40 million users and more than 190 million repositories[[1]](#jump6)
 
 
 
@@ -203,6 +203,7 @@ balabala
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 # Reference
-[1]“User search.” (2021). Github. https://github.com/search?q=type:user&type=Users
+<span id="jump6">[1]</span> *“User search.” (2021). Github. https://github.com/search?q=type:user&type=Users*  
+
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
