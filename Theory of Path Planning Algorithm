@@ -1,0 +1,7 @@
+The method used in path planning algorithm is A-star. As Baijayanta Roy[1] points, A-star is one of the most successful search algorithms to find the shortest path between nodes or graphs.
+The advantage of A-star is its heuristic function. The heuristic function includes two aspects.
+One is the exact cost from the starting node to the next node. The other is the estimated cost from the next node to the goal node. And the heuristic function combines them together to calculate the cost of the neighboring node. By using this method, it’s much easier for path planning to find the best path from the starting node to the goal node
+
+Reference
+[1] B. Roy “A-Star Search algorithm with step-by-step code” (2019).Github. https://towardsdatascience.com/a-star-a-search-algorithm-eb495fb156bb  
+
