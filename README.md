@@ -30,12 +30,14 @@ balabala
 # Introduction of the Engineering Tools 
 
 ## a.Python
+![1](https://github.com/LiTaiZong/pictures/blob/main/pro9.png)
 
 balabala
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/KeiraXu03/ENG1003_w1_9/blob/main/README.md)
 
 ## b.Github
+![1](https://github.com/LiTaiZong/pictures/blob/main/pro8.png)
 
 ### What is Github?
 
