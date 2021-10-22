@@ -197,7 +197,7 @@ for i in range(0, 20):
 
 # Additional Task 1
 ## Methodology:
-**Addition task is more difficult than any other task,so we need to figure out what is the order in which the program runs**
+** To finish the addition task 1(extra check point), we decide to use thecode of startpoint and goalpoint.**
 ****
 **conduct the main function**
 ```python
@@ -205,22 +205,19 @@ if __name__ == '__main__':
     main()
 ```
 ****
-**The next step is to set obstacles and color the points, which is omitted here.**
-****
 **The most important part:use class:AStarPlanner
 ```python
 a_star = AStarPlanner(ox, oy, grid_size, robot_radius, fc_x, fc_y, tc_x, tc_y)
     rx, ry = a_star.planning(sx, sy, gx, gy)
 ```
+**We found it difficult to print the value orgnized, so we create "AstarPlanner2"and "AstarPlanner3"to make the results easier to see.
 ****
-**And finally, the graph function**
+**Besides, we found that this code is the reason why the program stops.
 ```python
-    if show_animation:  # pragma: no cover
-        plt.plot(rx, ry, "-r") # show the route 
-        plt.pause(0.001) # pause 0.001 seconds
-        plt.show() # show the plot
+plt.show() # show the plot
 ```
-**What we should do is only to change the main function
+**So we need to put it into the last part.
+**After we change everything above, what we should do is only to change the main function.
 ```python
 def main():
     print(__file__ + " start the A star algorithm demo !!") # print simple notes
@@ -257,12 +254,6 @@ def main():
         ox.append(i)
         oy.append(-1 * i + 10)
     
-    # for i in range(40, 45): # draw the button border 
-    #     ox.append(i)
-    #     oy.append(30.0)
-
-    
-    # set fuel consuming area
     fc_x, fc_y = [], []
     for i in range(30, 35):
         for j in range(0, 40):
@@ -296,8 +287,6 @@ def main():
         plt.plot(rx, ry, "-b") # show the route 
         plt.pause(0.001) # pause 0.001 seconds
 
-
-
  # start and goal position
     sx = 15.0  # [m]
     sy = 25.0  # [m]
@@ -306,14 +295,12 @@ def main():
     grid_size = 1  # [m]
     robot_radius = 1.0  # [m]
 
-
     if show_animation:  # pragma: no cover
         plt.plot(ox, oy, ".k") # plot the obstacle
         plt.plot(0, 0, "xg") # plot the start position 
         plt.plot(15, 25, "oy") # plot the end position
         plt.plot(32, 5, "ob") # plot the start position 
         plt.plot(50, 0, "xb") # plot the end position
-
 
         plt.grid(True) # plot the grid to the plot panel
         plt.axis("equal") # set the same resolution for x and y axis 
@@ -325,16 +312,12 @@ def main():
         plt.plot(rx, ry, "-b") # show the route 
         plt.pause(0.001) # pause 0.001 seconds
 
-
-
     sx = 32.0  # [m]
     sy = 5.0  # [m]
     gx = 50.0  # [m]
     gy = 0.0  # [m]
     grid_size = 1  # [m]
     robot_radius = 1.0  # [m]
-
-
 
     if show_animation:  # pragma: no cover
         plt.plot(ox, oy, ".k") # plot the obstacle
@@ -356,8 +339,10 @@ def main():
         plt.show() # show the plot
 ```
 ## result
-<img width="570" height="450" src="https://github.com/KeiraXu03/image/blob/main/task4.gif"/> 
+<img width="570" height="450" src="https://github.com/LiTaiZong/pictures/blob/main/gif3.gif"/> 
+<img width="500" height="200" src="https://github.com/LiTaiZong/pictures/blob/main/pro11.png"/> 
 
+[![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 # Additional Task 2
 ## Methodology:
 ### Modify the code so that:
@@ -389,18 +374,7 @@ travel within one grid size:
                   [-1, 0, 1],
                   [0, -1, 1]]
 ```
-****
-* **Obstacles are generated randomly with reasonable density**
-**solution:**
-```python
-for i in range(0,1200):#Based on several attempts, we found that the density is appropriate when the number of obstacles is 1200
-        g1=random.randrange(-9, 60)
-        g2=random.randrange(-9, 60)
-        if((abs(g1-sx)<=3 and abs(g2-sy)<=3 ) or (abs(g1-gx)<=3 and abs(g2-gy)<=3)):
-            continue
-        ox.append(g1)
-        oy.append(g2)
-```
+
 ****
 * **Destination and starting points are generated randomly with at least a 50-unit distance in-between**
 **solution:**
@@ -416,28 +390,52 @@ while True:
 * **Plotting of the fuel-consuming area would not cover the obstacles, and obstacles should not generateat/near the start and end poin**
 **solution:**
 ```python
-for i in range(0,1200):
-        g1=random.randrange(-9, 60)
-        g2=random.randrange(-9, 60)
-        if((abs(g1-sx)<=3 and abs(g2-sy)<=3 ) or (abs(g1-gx)<=3 and abs(g2-gy)<=3)):##obstacles should not generateat/near the start and end poin
-            continue
-        ox.append(g1)
-        oy.append(g2)
+    for i in range(0,1200):
+        g=random.randrange(-9, 60)
+        #if(abs(g-sx)>=3 and abs(g-gx)>=3):
+        if g==sx:
+            g=-10
+        if g==sx+1:
+            g=-10
+        if g==sx-1:
+            g=-10
+        if g==gx:
+            g=-10
+        if g==gx+1:
+            g=-10
+        if g==gx-1:
+            g=-10
+        ox.append(g)
+        g=random.randrange(-9, 60)
+        #if(abs(g-sy)>=2 and abs(g-gy)>=2):
+        if g==sy:
+            g=-10  
+        if g==sy+1:
+            g=-10
+        if g==sy-1:
+            g=-10
+        if g==gy:
+            g=-10
+        if g==gy+1:
+            g=-10
+        if g==gy-1:
+            g=-10
+        oy.append(g)
 ```
 ****
 # result:
 **Since maps and paths are generated randomly, we only include three representative maps here**  
 **FIG. 1**
 
-<img width="570" height="450" src="https://github.com/KeiraXu03/image/blob/main/task5-1.gif"/> 
+<img width="570" height="450" src="https://github.com/LiTaiZong/pictures/blob/main/gif4.gif"/> 
 
 **FIG. 2**
 
-<img width="570" height="450" src="https://github.com/KeiraXu03/image/blob/main/task5-2.gif"/> 
+<img width="570" height="450" src="https://github.com/LiTaiZong/pictures/blob/main/gif5.gif"/> 
 
 **FIG. 3**
 
-<img width="570" height="450" src="https://github.com/KeiraXu03/image/blob/main/task5-3.gif"/> 
+<img width="570" height="450" src="https://github.com/LiTaiZong/pictures/blob/main/gif6.gif"/> 
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 
