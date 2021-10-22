@@ -424,16 +424,16 @@ while True:
 ```
 ****
 # result:
-**Since maps and paths are generated randomly, we only include three representative maps here**  
-**FIG. 1**
+**Here are the examples.**  
+**Result 1**
 
 <img width="570" height="450" src="https://github.com/LiTaiZong/pictures/blob/main/gif4.gif"/> 
 
-**FIG. 2**
+**Result 2**
 
 <img width="570" height="450" src="https://github.com/LiTaiZong/pictures/blob/main/gif5.gif"/> 
 
-**FIG. 3**
+**Result 3**
 
 <img width="570" height="450" src="https://github.com/LiTaiZong/pictures/blob/main/gif6.gif"/> 
 
