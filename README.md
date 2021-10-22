@@ -195,6 +195,212 @@ for i in range(0, 20):
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 
+# Additional Task 1
+## Methodology:
+**Addition task is more difficult than any other task,so we need to figure out what is the order in which the program runs**
+****
+**conduct the main function**
+```python
+if __name__ == '__main__':
+    main()
+```
+****
+**The next step is to set obstacles and color the points, which is omitted here.**
+****
+**The most important part:use class:AStarPlanner
+```python
+a_star = AStarPlanner(ox, oy, grid_size, robot_radius, fc_x, fc_y, tc_x, tc_y)
+    rx, ry = a_star.planning(sx, sy, gx, gy)
+```
+****
+**And finally, the graph function**
+```python
+    if show_animation:  # pragma: no cover
+        plt.plot(rx, ry, "-r") # show the route 
+        plt.pause(0.001) # pause 0.001 seconds
+        plt.show() # show the plot
+```
+**What we should do is only to change the main function
+```python
+def main():
+    print(__file__ + " start the A star algorithm demo !!") # print simple notes
+
+    # start and goal position
+    sx = 0.0  # [m]
+    sy = 0.0  # [m]
+    gx = 10.0  # [m]
+    gy = 30.0  # [m]
+    grid_size = 1  # [m]
+    robot_radius = 1.0  # [m]
+    ox, oy = [], []
+    for i in range(-10, 60): # draw the button border 
+        ox.append(i)
+        oy.append(-10.0)
+    for i in range(-10, 60): # draw the right border
+        ox.append(60.0)
+        oy.append(i)
+    for i in range(-10, 60): # draw the top border
+        ox.append(i)
+        oy.append(60.0)
+    for i in range(-10, 60): # draw the left border
+        ox.append(-10.0)
+        oy.append(i)
+
+    for i in range(-10, 20): # draw the free border
+        ox.append(20.0)
+        oy.append(i)
+
+    for i in range(40, 50):
+        ox.append(i)
+        oy.append(140-2*i)
+    
+    # set fuel consuming area
+    fc_x, fc_y = [], []
+    for i in range(30, 35):
+        for j in range(0, 40):
+            fc_x.append(i)
+            fc_y.append(j)
+    
+    # set time consuming area
+    tc_x, tc_y = [], []
+    for i in range(0, 20):
+        for j in range(20, 40):
+            tc_x.append(i)
+            tc_y.append(j)
+
+    if show_animation:  # pragma: no cover
+        plt.plot(fc_x, fc_y, "oy") # plot the fuel consuming area
+        plt.plot(tc_x, tc_y, "or") # plot the time consuming area
+        plt.plot(ox, oy, ".k") # plot the obstacle
+        plt.plot(0, 0, "or") # plot the start position 
+        plt.plot(10,30, "oy") # plot the end position
+        plt.plot(32,20, "og")
+        plt.plot(50,50, "xb")
+        plt.grid(True) # plot the grid to the plot panel
+        plt.axis("equal") # set the same resolution for x and y axis 
+
+    a_star = AStarPlanner(ox, oy, grid_size, robot_radius, fc_x, fc_y, tc_x, tc_y)
+    rx, ry = a_star.planning(sx, sy, gx, gy)
+    if show_animation:  # pragma: no cover
+        plt.plot(rx, ry, "-b") # show the route 
+        plt.pause(0.001)
+        plt.plot(0, 0, "or") # plot the start position 
+        plt.plot(10,30, "oy") # plot the end position
+        plt.plot(32,20, "og")
+        plt.plot(50,50, "xb")# pause 0.001 seconds
+       ## plt.show() # show the plot
+    sx = 10.0  # [m]
+    sy = 30.0  # [m]
+    gx = 32.0  # [m]
+    gy = 20.0  # [m]
+    rx, ry = a_star.planning(sx, sy, gx, gy)
+    if show_animation:  # pragma: no cover
+        plt.plot(rx, ry, "-b") # show the route 
+        plt.pause(0.001) 
+        plt.plot(0, 0, "or") # plot the start position 
+        plt.plot(10,30, "oy") # plot the end position
+        plt.plot(32,20, "og")
+        plt.plot(50,50, "xb")# pause 0.001 seconds
+    sx = 32.0  # [m]
+    sy = 20.0  # [m]
+    gx = 50.0  # [m]
+    gy = 50.0  # [m
+    rx, ry = a_star.planning(sx, sy, gx, gy)
+    if show_animation:  # pragma: no cover
+        plt.plot(rx, ry, "-b") # show the route 
+        plt.pause(0.001) # pause 0.001 seconds
+        plt.plot(0, 0, "or") # plot the start position 
+        plt.plot(10,30, "oy") # plot the end position
+        plt.plot(32,20, "og")
+        plt.plot(50,50, "xb")# pause 0.001 seconds
+        plt.show() # show the plot
+```
+## result
+<img width="570" height="450" src="https://github.com/KeiraXu03/image/blob/main/task4.gif"/> 
+
+# Additional Task 2
+## Methodology:
+### Modify the code so that:
+* **Only the fuel-consuming area remains and generate it randomly with a fixed area (30x30)**  
+**solution:**
+```python
+fc_x, fc_y = [], []
+    r_fc_x = random.randrange(-9, 31)
+    r_fc_y = random.randrange(-9, 31)
+    for i in range(r_fc_x, r_fc_x+30):
+        for j in range(r_fc_y, r_fc_y+30):
+            fc_x.append(i)
+            fc_y.append(j)
+```
+****
+* **Diagonal movement is disabled, change parameter(s) so that the object could travel within one grid size**  
+**solution:**
+travel within one grid size:
+```python
+    grid_size = 1  
+    robot_radius = 0  
+```
+**Diagonal movements are disabled:**
+```python
+@staticmethod
+    def get_motion_model(): 
+        motion = [[1, 0, 1],
+                  [0, 1, 1],
+                  [-1, 0, 1],
+                  [0, -1, 1]]
+```
+****
+* **Obstacles are generated randomly with reasonable density**
+**solution:**
+```python
+for i in range(0,1200):#Based on several attempts, we found that the density is appropriate when the number of obstacles is 1200
+        g1=random.randrange(-9, 60)
+        g2=random.randrange(-9, 60)
+        if((abs(g1-sx)<=3 and abs(g2-sy)<=3 ) or (abs(g1-gx)<=3 and abs(g2-gy)<=3)):
+            continue
+        ox.append(g1)
+        oy.append(g2)
+```
+****
+* **Destination and starting points are generated randomly with at least a 50-unit distance in-between**
+**solution:**
+```python
+while True:
+        sx = random.randrange(-10, 59)  # [m]
+        sy = random.randrange(-10, 59)  # [m]
+        gx = random.randrange(-10, 59)  # [m]
+        gy = random.randrange(-10, 59)  # [m]
+        if (gx-sx) >= 50 or (sx-gx) >= 50 or (gy-sy) >= 50 or (sy-gy) >= 50:
+            break
+```
+* **Plotting of the fuel-consuming area would not cover the obstacles, and obstacles should not generateat/near the start and end poin**
+**solution:**
+```python
+for i in range(0,1200):
+        g1=random.randrange(-9, 60)
+        g2=random.randrange(-9, 60)
+        if((abs(g1-sx)<=3 and abs(g2-sy)<=3 ) or (abs(g1-gx)<=3 and abs(g2-gy)<=3)):##obstacles should not generateat/near the start and end poin
+            continue
+        ox.append(g1)
+        oy.append(g2)
+```
+****
+# result:
+**Since maps and paths are generated randomly, we only include three representative maps here**  
+**FIG. 1**
+
+<img width="570" height="450" src="https://github.com/KeiraXu03/image/blob/main/task5-1.gif"/> 
+
+**FIG. 2**
+
+<img width="570" height="450" src="https://github.com/KeiraXu03/image/blob/main/task5-2.gif"/> 
+
+**FIG. 3**
+
+<img width="570" height="450" src="https://github.com/KeiraXu03/image/blob/main/task5-3.gif"/> 
+
+[![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
+
 # Reflective Essay
 ### 1
 balabala
