@@ -18,7 +18,7 @@
 # Background of Path Planning to Aviation Engineering
 ![1](https://github.com/LiTaiZong/pictures/blob/main/pro10.png)
 
-The Real-time flight tracking technology provides global flight tracking, prediction technology, analysis and decision-making tools through cooperation with air traffic control systems in different countries/regions. It also including cooperation with different companies, such as airlines, banks and technology companies. It will display professional information such as the aircraft's airline, model, current altitude, flight speed, and location to different aircraft operators and service providers and passengers. 
+The Real-time flight tracking technology provides global flight tracking, prediction technology, analysis, and decision-making tools through cooperation with air traffic control systems in different countries/regions. It also includes cooperation with different companies, such as airlines, banks, and technology companies. It will display professional information such as the aircraft's airline, model, current altitude, flight speed, and location to different aircraft operators and service providers, and passengers.
 
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
