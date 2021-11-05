@@ -37,7 +37,22 @@ One is the exact cost from the starting node to the next node. The other is the 
 ## a.Python
 ![1](https://github.com/LiTaiZong/pictures/blob/main/pro9.png)
 
-balabala
+### What is Python?
+
+1. Python is an interpreted, object-oriented, high-level programming language with dynamic semantic
+2. It was created by Guido van Rossum, and first released on February 20, 1991
+3. It supports modules and packages, which encourages program modularity and code reuse
+4. A good coding language for new or novice coders because of its readability and use of the English language
+5. One of the least fussy and most straightforward coding languages to learn and read
+
+### Advantages of using Python
+
+1. Python has a huge community to support it, which helps maintain its accessibility to any skill level
+2. It is a free and open-source software
+3. Lines of code written in Python are also easy to read
+4. It is designed to be highly portable, which is supported by all the operating systems, Windows, Linux, UNIX and macOS. 
+5. It has a large array of development tools and frameworks for every type of use.
+
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 
