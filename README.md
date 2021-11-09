@@ -465,8 +465,9 @@ while True:
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 
 # Reflective Essay
-### 1
-balabala
+### 1 Li Yunze
+In this project, I served as the team leader, mainly responsible for the distribution of work within the team and the integration of student codes. I am mainly responsible for writing programs and integrating the programs of other team members. The AAE project has taught me a lot, of which the most helpful one should be the use of GitHub. When we encounter a new problem, there is no need to write code from scratch. On the contrary, we can download the relevant code from GitHub and modify it to obtain the program we want, which will greatly improve our efficiency.
+In the process of completing the AAE project, I found a lot of my own shortcomings and improved a lot. In the first additional task, it took me a week or so because I couldn't read the code, so I didn't expect anything. Later I found that the code in many places does not need to be modified, I only need to modify the main function. This incident made me realize that when we encounter some unsolvable problems, we can change our minds, and maybe we will find the answer. Another challenge we encountered was additional task two. This task requires more code changes than any other task, and the task requirements are complex. One of the codes for the random starting point and fuel consumption area was written by a member of my team. His code gave me an idea, and I think the random number setting part is well written. According to his ideas, I designed the code to set random obstacles. As the leader of our group, I always wanted one person to complete all tasks at first, but as the amount of tasks increased, I found it difficult to achieve. So I tried to learn how to communicate with group members. Instead of doing all the work by myself, I assigned tasks to the group members so that everyone had the opportunity to practice.
 ### 2
 
 ### 3
