@@ -24,10 +24,9 @@ The Real-time flight tracking technology provides global flight tracking, predic
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 
 # Theory of Path Planning Algorithm 
+The method used in the path planning algorithm is A-star. As Roy[[1]](#jump6) says, reaching a destination via the shortest route is a daily activity we all do. A-star is considered to be one of the most successful search algorithms to find the shortest path between nodes or graphs.
 
-The method used in path planning algorithm is A-star. As Baijayanta Roy[[1]](#jump6) points, A-star is one of the most successful search algorithms to find the shortest path between nodes or graphs.
-The advantage of A-star is its heuristic function. The heuristic function includes two aspects.
-One is the exact cost from the starting node to the next node. The other is the estimated cost from the next node to the goal node. And the heuristic function combines them together to calculate the cost of the neighboring node. By using this method, it’s much easier for path planning to find the best path from the starting node to the goal node
+A-star has its own strength, which is the heuristic function. The heuristic function includes two aspects: one is the exact cost from the starting node to the next node. The other is the estimated cost from the next node to the goal node. And the heuristic function combines them together to calculate the cost of the neighboring node. By using this method, it’s much easier for path planning to find the best path from the starting node to the goal node.
 
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
@@ -487,8 +486,7 @@ As I know nothing about coding before doing the AAE project, I cannot help much 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 # Reference
 
-<span id="jump6">[1]</span> *B. Roy “A-Star Search algorithm with step-by-step code” (2019).Github. https://towardsdatascience.com/a-star-a-search-algorithm-eb495fb156bb*  
-*  
+<span id="jump6">[1]</span> *B. Roy “A-Star Search algorithm with step-by-step code” (2019).Github. https://towardsdatascience.com/a-star-a-search-algorithm-eb495fb156bb*   
 
 <span id="jump7">[2]</span> *“User search.” (2021). Github. https://github.com/search?q=type:user&type=Users*  
 
