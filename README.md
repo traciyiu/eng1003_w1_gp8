@@ -478,7 +478,16 @@ Before doing nthe AAE project, I know nothing about coding, programming and thes
 
 As I know nothing about coding before doing the AAE project, I cannot help much for the programs or codes, but I did try to help. By looking at my groupmates' work, I learnt a lot about writing programs. They are really helpful and they are very kind to teach me about coding. In order to try to contribute more on coding, I also learn from my brother who knows about coding. He taught me a lot on python language, and about the task that we have to do in this project. By learning from my brother and from Youtube videos teachihg python, I can finish the task that assigned by my group leader. My work might not be 100% correct, but my groupmates are very kind to check for me. The AAE project, as my first projct at the university, has given me a great chance to meet my groupmates. I am so pleased to meet them as my groupmates.
 
-### 3
+### 3 Xiao Zhe
+
+In this AAE project, I learned a lot about collaboration, reflection, and exploration. I was worried at the beginning, not knowing GitHub, not knowing Python. I even thought that I knew nothing, and I also found that there are many things I need to do. 
+
+I started self-learning and gradually I can deal with the Python function task in week 3, which made me satisfied. I searched for information online to finish the task” Theory of Path Planning Algorithm”. I could figure out the problems correctly and commit them to my branch. Seeing more and more problems could be solved, I felt delighted and has a sense of achievement.
+
+However, as more and more compulsory tasks came, I found that I was a little weak, and seem to fall behind. At that time, I realized that how important it is to work with my groupmates. I turned to the group leader and got the idea on how to solve the problem about the compulsory task, which is about figuring out the minus cost area and displaying it. This is the first time I tasted the powerful function of teamwork. 
+
+In the following days, we got used to working together and made great improvements. During these experiences, I learned Python, learned how to write a README page in GitHub, learned how to make use of the resources from GitHub, and most importantly, I learned how to handle problems with my groupmates.
+
 ### 4
 ### 5
 
