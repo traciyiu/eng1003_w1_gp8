@@ -20,6 +20,7 @@ A-star has its own strength, which is the heuristic function. The heuristic func
 Reference
 
 ### *Screen capture*
+![This is an image](https://github.com/traciyiu/eng1003_w1_gp8/blob/Zhe/Zhe%20--screen%20capture.png)
 
   ### 1. Basic Function
   
