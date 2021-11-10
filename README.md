@@ -8,8 +8,8 @@
     <li><a href="#Task-1-Methodology-results-and-Discussion">Task 1:Methodology, results and Discussion</a></li>
     <li><a href="#Task-2-Methodology-results-and-Discussion">Task 2:Methodology, results and Discussion</a></li>
     <li><a href="#task-3-Methodology-results-and-Discussion">task 3:Methodology, results and Discussion</a></li>
-    <Li><a href="#Additional-task-1-Adding-Checkpoints">Additional task 1--Adding Checkpoints</a></Li>
-    <Li><a href="#Additional-task-2-Changing-Environment">Additional task 2--Changing Environment</a></Li>
+    <Li><a href="#Additional-task-1----Adding-Checkpoints">Additional task 1--Adding Checkpoints</a></Li>
+    <Li><a href="#Additional-task-2----Changing-Environment">Additional task 2--Changing Environment</a></Li>
     <li><a href="#Reflective-Essay">Reflective Essay </a></li>
     <li><a href="#Reference">Reference </a></li>
   </ol>
