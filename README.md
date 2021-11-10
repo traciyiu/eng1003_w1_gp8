@@ -412,7 +412,7 @@ while True:
         if (gx-sx) >= 50 or (sx-gx) >= 50 or (gy-sy) >= 50 or (sy-gy) >= 50:
             break
 ```
-* **Plotting of the fuel-consuming area would not cover the obstacles, and obstacles should not generateat/near the start and end poin**
+* **Plotting of the fuel-consuming area would not cover the obstacles, and obstacles should not generate at/near the start and end poin**
 **solution:**
 ```python
     for i in range(0,1200):
