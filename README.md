@@ -480,13 +480,13 @@ As I know nothing about coding before doing the AAE project, I cannot help much 
 
 ### 3 Xiao Zhe
 
-In this AAE project, I learned a lot about collaboration, reflection, and exploration. I was worried at the beginning, not knowing GitHub, not knowing Python. I even thought that I knew nothing, and I also found that there are many things I need to do. 
+In this AAE project, I learned a lot about collaboration, reflection, and exploration. However, I was worried at the beginning, not knowing GitHub, not knowing Python. I did not know how I can start the project. I even thought that I knew nothing, and I also found that there are many things I need to do. 
 
-I started self-learning and gradually I can deal with the Python function task in week 3, which made me satisfied. I searched for information online to finish the task” Theory of Path Planning Algorithm”. I could figure out the problems correctly and commit them to my branch. Seeing more and more problems could be solved, I felt delighted and has a sense of achievement.
+I started self-learning using online resources. Gradually, I can deal with the Python functions given in week 3. Function 1, function 2, up to function 5, and even the additional function, I could finish them one by one, which made me satisfied. I searched for information online to complete the task” Theory of Path Planning Algorithm” and knew more about the importance of Path Planning, which is the project we were studying. I could figure out the problems correctly and commit them to my branch. Seeing more and more problems could be solved, I felt delighted and has a sense of achievement.
 
-However, as more and more compulsory tasks came, I found that I was a little weak, and seem to fall behind. At that time, I realized that how important it is to work with my groupmates. I turned to the group leader and got the idea on how to solve the problem about the compulsory task, which is about figuring out the minus cost area and displaying it. This is the first time I tasted the powerful function of teamwork. 
+However, as more and more compulsory tasks came, I found that I was struggling, and seemed to fall behind. At that time, I realized that how important it is to work with my groupmates. I turned to the group leader and got the idea on how to solve the problem about the complex task, which is about figuring out the minus cost area and displaying it. This is the first time I experienced the power of teamwork. In the following days, we got used to working together and made considerable improvements.
 
-In the following days, we got used to working together and made great improvements. During these experiences, I learned Python, learned how to write a README page in GitHub, learned how to make use of the resources from GitHub, and most importantly, I learned how to handle problems with my groupmates.
+During these experiences, I learned Python, learned how to write a README page in GitHub, learned how to make use of the resources from GitHub, and most importantly, I learned how to handle problems with my groupmates.
 
 ### 4
 ### 5
