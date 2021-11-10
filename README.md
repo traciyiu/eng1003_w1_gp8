@@ -177,6 +177,7 @@ for i in range(0, 20):
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 
 # task 3 Methodology results and Discussion
+![This is an image](https://github.com/traciyiu/eng1003_w1_gp8/blob/Zhe/image.png)
 ## Methodology:
 ### First,we should find the code which needs to be changed:
 * 1. Calculate the cost.
