@@ -5,9 +5,9 @@
     <li><a href="#Background-of-Path-Planning-to-Aviation-Engineering">Background of Path Planning to Aviation Engineering</a></li>
     <li><a href="#Theory-of-Path-Planning-Algorithm">Theory of Path Planning Algorithm</a></li>
     <li><a href="#Introduction-of-the-Engineering-Tools">Introduction of the Engineering Tools</a></li>
-    <li><a href="#Task-1-Methodology-results-and-Discussion">Task 1:Methodology, results and Discussion</a></li>
-    <li><a href="#Task-2-Methodology-results-and-Discussion">Task 2:Methodology, results and Discussion</a></li>
-    <li><a href="#task-3-Methodology-results-and-Discussion">task 3:Methodology, results and Discussion</a></li>
+    <li><a href="#Task-1-Methodology-Results-and-Discussion">Task 1:Methodology, Results and Discussion</a></li>
+    <li><a href="#Task-2-Methodology-Results-and-Discussion">Task 2:Methodology, Results and Discussion</a></li>
+    <li><a href="#task-3-Methodology-Results-and-Discussion">task 3:Methodology, Results and Discussion</a></li>
     <Li><a href="#Additional-task-1-Adding-Checkpoints">Additional task 1: Adding Checkpoints</a></Li>
     <Li><a href="#Additional-task-2-Changing-Environment">Additional task 2: Changing Environment</a></Li>
     <li><a href="#Reflective-Essay">Reflective Essay </a></li>
@@ -99,7 +99,7 @@ GitHub is usually used for software development. GitHub also supports the follow
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 
-# Task 1 Methodology results and Discussion
+# Task 1 Methodology, Results and Discussion
 ## Methodology:
 ### First,we should find the code which needs to be changed.
 **Start and Finish Point:**
@@ -161,7 +161,7 @@ for i in range(0, 20):
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 
-# Task 2 Methodology results and Discussion
+# Task 2 Methodology, Results and Discussion
 ## Methodology:
 ### Firstly,we found that when the two values are equal, the cost will be the least.
 ### Secondly,we calculate all the possible values and find that when the values equal to 20, the cost will be the least.
@@ -178,7 +178,7 @@ for i in range(0, 20):
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 
-# task 3 Methodology results and Discussion
+# task 3 Methodology, Results and Discussion
 
 <img width="570" height="320" src="https://github.com/traciyiu/eng1003_w1_gp8/blob/Zhe/image.png"/>
 
