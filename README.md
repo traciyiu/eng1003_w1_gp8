@@ -256,11 +256,22 @@ def main():
     sy = 0.0  # [m]
     gx = 15.0  # [m]
     gy = 25.0  # [m]
+
+    sx2 = 15.0  # [m]
+    sy2 = 25.0  # [m]
+    gx2 = 32.0  # [m]
+    gy2 = 5.0  # [m]
+
+    sx3 = 32.0  # [m]
+    sy3 = 5.0  # [m]
+    gx3 = 50.0  # [m]
+    gy3 = 0.0  # [m]
+    
     grid_size = 1  # [m]
     robot_radius = 1.0  # [m]
 
 
-    # set obstacle positions for group 9
+    # set obstacle positions for group 8
     ox, oy = [], []
     for i in range(-10, 60): # draw the button border 
         ox.append(i)
@@ -282,7 +293,9 @@ def main():
     for i in range(0, 20):
         ox.append(i)
         oy.append(-1 * i + 10)
+
     
+    # set fuel consuming area
     fc_x, fc_y = [], []
     for i in range(30, 35):
         for j in range(0, 40):
@@ -298,72 +311,31 @@ def main():
 
     if show_animation:  # pragma: no cover
         plt.plot(ox, oy, ".k") # plot the obstacle
-        plt.plot(0, 0, "xg") # plot the start position 
-        plt.plot(15, 25, "oy") # plot the end position
-        plt.plot(32, 5, "ob") # plot the start position 
-        plt.plot(50, 0, "xb") # plot the end position
-        
+
         plt.plot(fc_x, fc_y, "oy") # plot the fuel consuming area
         plt.plot(tc_x, tc_y, "or") # plot the time consuming area
 
-        plt.grid(True) # plot the grid to the plot panel
-        plt.axis("equal") # set the same resolution for x and y axis 
+        plt.plot(sx, sy, "og") # plot the start position 
+        plt.plot(gx, gy, "xb") # plot the end position
 
-    a_star = AStarPlanner1(ox, oy, grid_size, robot_radius, fc_x, fc_y, tc_x, tc_y)
-    rx, ry = a_star.planning(sx, sy, gx, gy)
-    
-    if show_animation:  # pragma: no cover
-        plt.plot(rx, ry, "-b") # show the route 
-        plt.pause(0.001) # pause 0.001 seconds
+        plt.plot(sx2, sy2, "og") # plot the start position 
+        plt.plot(gx2, gy2, "xb") # plot the end position
 
- # start and goal position
-    sx = 15.0  # [m]
-    sy = 25.0  # [m]
-    gx = 32.0  # [m]
-    gy = 5.0  # [m]
-    grid_size = 1  # [m]
-    robot_radius = 1.0  # [m]
-
-    if show_animation:  # pragma: no cover
-        plt.plot(ox, oy, ".k") # plot the obstacle
-        plt.plot(0, 0, "xg") # plot the start position 
-        plt.plot(15, 25, "oy") # plot the end position
-        plt.plot(32, 5, "ob") # plot the start position 
-        plt.plot(50, 0, "xb") # plot the end position
+        plt.plot(sx3, sy3, "og") # plot the start position 
+        plt.plot(gx3, gy3, "xb") # plot the end position
 
         plt.grid(True) # plot the grid to the plot panel
         plt.axis("equal") # set the same resolution for x and y axis 
 
-    a_star = AStarPlanner2(ox, oy, grid_size, robot_radius, fc_x, fc_y, tc_x, tc_y)
+    a_star = AStarPlanner(ox, oy, grid_size, robot_radius, fc_x, fc_y, tc_x, tc_y)
     rx, ry = a_star.planning(sx, sy, gx, gy)
+    rx2, ry2 = a_star.planning(sx2, sy2, gx2, gy2)
+    rx3, ry3 = a_star.planning(sx3, sy3, gx3, gy3)
 
     if show_animation:  # pragma: no cover
-        plt.plot(rx, ry, "-b") # show the route 
-        plt.pause(0.001) # pause 0.001 seconds
-
-    sx = 32.0  # [m]
-    sy = 5.0  # [m]
-    gx = 50.0  # [m]
-    gy = 0.0  # [m]
-    grid_size = 1  # [m]
-    robot_radius = 1.0  # [m]
-
-    if show_animation:  # pragma: no cover
-        plt.plot(ox, oy, ".k") # plot the obstacle
-        plt.plot(0, 0, "xg") # plot the start position 
-        plt.plot(15, 25, "oy") # plot the end position
-        plt.plot(32, 5, "ob") # plot the start position 
-        plt.plot(50, 0, "xb") # plot the end position
-
-
-        plt.grid(True) # plot the grid to the plot panel
-        plt.axis("equal") # set the same resolution for x and y axis 
-
-    a_star = AStarPlanner3(ox, oy, grid_size, robot_radius, fc_x, fc_y, tc_x, tc_y)
-    rx, ry = a_star.planning(sx, sy, gx, gy)
-
-    if show_animation:  # pragma: no cover
-        plt.plot(rx, ry, "-b") # show the route 
+        plt.plot(rx, ry, "-r") # show the route 
+        plt.plot(rx2, ry2, "-r") # show the route
+        plt.plot(rx3, ry3, "-r") # show the route 
         plt.pause(0.001) # pause 0.001 seconds
         plt.show() # show the plot
 ```
