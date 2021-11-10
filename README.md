@@ -12,7 +12,7 @@
   
   
   <!-- ABOUT THE PROJECT -->
-  ### **Theory of Path Planning Algorithm**
+  ### Theory of Path Planning Algorithm
   
 The method used in the path planning algorithm is A-star. As Roy[[1]](#jump1) says, reaching a destination via the shortest route is a daily activity we all do. A-star is considered to be one of the most successful search algorithms to find the shortest path between nodes or graphs.
 
