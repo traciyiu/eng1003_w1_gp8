@@ -3,21 +3,24 @@
 <details open= "open">
   <summary><h2 style="display: incline-block">Contents Preview</h2></summary>
    <li><a href= "#Theory-of-Path-Planning-Algorithm">Theory of Path Planning Algorithm</a></li>
+   <li><a href= "#screen-capture">screen capture task</a></li>
    <li><a href= "#Basic-Function">Basic Function</a></li>
    <li><a href= "#Advanced-Function">Advanced Function</a></li>
    <li><a href= "#A-star task">A-star compulsory task</a></li>
-   <li><a href= "#screen-capture task">screen capture task</a></li>
   </ol>
 </details>
   
   
   <!-- ABOUT THE PROJECT -->
-   ### **Theory of Path Planning Algorithm**
+  ### **Theory of Path Planning Algorithm**
   
 The method used in the path planning algorithm is A-star. As Roy[[1]](#jump1) says, reaching a destination via the shortest route is a daily activity we all do. A-star is considered to be one of the most successful search algorithms to find the shortest path between nodes or graphs.
 
 A-star has its own strength, which is the heuristic function. The heuristic function includes two aspects: one is the exact cost from the starting node to the next node. The other is the estimated cost from the next node to the goal node. And the heuristic function combines them together to calculate the cost of the neighboring node. By using this method, it’s much easier for path planning to find the best path from the starting node to the goal node.
 Reference
+
+### *Screen capture*
+
   ### 1. Basic Function
   
    a visit to python world, write some codes to complete the task
