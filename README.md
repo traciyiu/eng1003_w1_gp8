@@ -284,8 +284,7 @@ for i in range(0, 20):
         plt.show() # show the plot
 ```
 ## Result
-<img width="570" height="450" src="https://github.com/LiTaiZong/pictures/blob/main/gif3.gif"/> 
-<img width="500" height="200" src="https://github.com/LiTaiZong/pictures/blob/main/pro11.png"/> 
+<img width="570" height="450" src="https://github.com/traciyiu/eng1003_w1_gp8/blob/CheungPongYuen/Additional_Task1_Result.gif"/> 
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 # Additional Task 2: Changing Environment
