@@ -417,7 +417,14 @@ In this project, it made me know the existence of GitHub and Python, which drive
 
 Besides, it also let me know that the importance of teamwork. Good teamwork plays a crucial role in implementing and fulfilling common goals quicker and better in a team project. During the project, we have encountered many difficulties of different sizes, like wrong coding, calculation mistake even conflicts and arguments, etc. But we still overcome it and finish all the tasks. In the project, we all play our particular roles and take on different responsibilities. which combined together can make the team function well and achieve a common goal. In this project, my task is mainly to introduce the background of planning algorithms, the engineering tools, and checking the coding of each task is correct or not. I am able to clarify my role characteristics through this project, making me learn to enhance my strong points and overcome team weaknesses, as well as draw lessons but also reflections on how to deal with situations that arise in teamwork.
 
-### 5
+### 5 Cheung Pong Yuen
+
+In this project, I am working on the coding part. I have participated in the development of the python code on github.
+
+Through this project, I have learnt about the basic operation of github and how to make use of it on doing a project. By using github, I can develop the code with other group members together online. Keep track of the progress, having the most updated version of the work immediately. All the members can check the modified history, find out what has been changed and help to correct the mistake. It is more convenient and effective to do a project. Also, I have learnt about how to utilize the resource from github after this project. For example, we have used the A-Star path planning algorithm developed by other github users in this project. I have gained the experience of using github to discover useful programs, take advantage of other developer's code, study their mindset, and learn from it.
+
+Not only learning python, but also the cooperation on github. I think this project is very helpful for us to become a professional developer in the future.
+
 
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
