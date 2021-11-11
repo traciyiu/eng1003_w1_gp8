@@ -469,7 +469,12 @@ However, as more and more compulsory tasks came, I found that I was struggling, 
 
 During these experiences, I learned Python, learned how to write a README page in GitHub, learned how to make use of the resources from GitHub, and most importantly, I learned how to handle problems with my groupmates.
 
-### 4
+### 4 Mak Cheuk Hang Jay 
+
+In this project, it made me know the existence of GitHub and Python, which drive me to learn and to use them. Before doing this project, I am a newbie in coding, programming, and these engineering tools. But after this project, I learned many skills of coding as well as programming. Furthermore, it made me more aware of the planning algorithms. And After several months of working with the team members, I became more interested in planning algorithms. 
+
+Besides, it also let me know that the importance of teamwork. Good teamwork plays a crucial role in implementing and fulfilling common goals quicker and better in a team project. During the project, we have encountered many difficulties of different sizes, like wrong coding, calculation mistake even conflicts and arguments, etc. But we still overcome it and finish all the tasks. In the project, we all play our particular roles and take on different responsibilities. which combined together can make the team function well and achieve a common goal. In this project, my task is mainly to introduce the background of planning algorithms, the engineering tools, and checking the coding of each task is correct or not. I am able to clarify my role characteristics through this project, making me learn to enhance my strong points and overcome team weaknesses, as well as draw lessons but also reflections on how to deal with situations that arise in teamwork.
+
 ### 5
 
 
