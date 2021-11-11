@@ -227,32 +227,10 @@ for i in range(0, 20):
 
 # Additional Task 1: Adding Checkpoints
 ## Methodology:
-** To finish the addition task 1(extra check point), we decide to use thecode of startpoint and goalpoint.**
-****
-**conduct the main function**
-```python
-if __name__ == '__main__':
-    main()
-```
-****
-**The most important part:use class:AStarPlanner
-```python
-a_star = AStarPlanner(ox, oy, grid_size, robot_radius, fc_x, fc_y, tc_x, tc_y)
-    rx, ry = a_star.planning(sx, sy, gx, gy)
-```
-**We found it difficult to print the value orgnized, so we create "AstarPlanner2"and "AstarPlanner3"to make the results easier to see.
-****
-**Besides, we found that this code is the reason why the program stops.
-```python
-plt.show() # show the plot
-```
-**So we need to put it into the last part.
-**After we change everything above, what we should do is only to change the main function.
-```python
-def main():
-    print(__file__ + " start the A star algorithm demo !!") # print simple notes
+** To finish the addition task 1(extra check point), we have divided the route into three part.**
 
-    # start and goal position
+**Setting the starting position and goal position of the three route
+```python
     sx = 0.0  # [m]
     sy = 0.0  # [m]
     gx = 15.0  # [m]
@@ -267,49 +245,18 @@ def main():
     sy3 = 5.0  # [m]
     gx3 = 50.0  # [m]
     gy3 = 0.0  # [m]
-    
-    grid_size = 1  # [m]
-    robot_radius = 1.0  # [m]
-
-
-    # set obstacle positions for group 8
-    ox, oy = [], []
-    for i in range(-10, 60): # draw the button border 
-        ox.append(i)
-        oy.append(-10.0)
-    for i in range(-10, 60): # draw the right border
-        ox.append(60.0)
-        oy.append(i)
-    for i in range(-10, 60): # draw the top border
-        ox.append(i)
-        oy.append(60.0)
-    for i in range(-10, 60): # draw the left border
-        ox.append(-10.0)
-        oy.append(i)
-
-    for i in range(20, 60): # draw the free border
-        ox.append(40.0)
-        oy.append(i)
-
-    for i in range(0, 20):
-        ox.append(i)
-        oy.append(-1 * i + 10)
-
-    
-    # set fuel consuming area
-    fc_x, fc_y = [], []
-    for i in range(30, 35):
-        for j in range(0, 40):
-            fc_x.append(i)
-            fc_y.append(j)
-    
-    # set time consuming area
-    tc_x, tc_y = [], []
-    for i in range(10, 20):
-        for j in range(20, 50):
-            tc_x.append(i)
-            tc_y.append(j)
-
+```
+****
+**Using the a_star.plaaing() function to generate the route
+```python
+    a_star = AStarPlanner(ox, oy, grid_size, robot_radius, fc_x, fc_y, tc_x, tc_y)
+    rx, ry = a_star.planning(sx, sy, gx, gy)
+    rx2, ry2 = a_star.planning(sx2, sy2, gx2, gy2)
+    rx3, ry3 = a_star.planning(sx3, sy3, gx3, gy3)
+```
+****
+**Plot the graph
+```python
     if show_animation:  # pragma: no cover
         plt.plot(ox, oy, ".k") # plot the obstacle
 
@@ -327,12 +274,8 @@ def main():
 
         plt.grid(True) # plot the grid to the plot panel
         plt.axis("equal") # set the same resolution for x and y axis 
-
-    a_star = AStarPlanner(ox, oy, grid_size, robot_radius, fc_x, fc_y, tc_x, tc_y)
-    rx, ry = a_star.planning(sx, sy, gx, gy)
-    rx2, ry2 = a_star.planning(sx2, sy2, gx2, gy2)
-    rx3, ry3 = a_star.planning(sx3, sy3, gx3, gy3)
-
+```
+```python
     if show_animation:  # pragma: no cover
         plt.plot(rx, ry, "-r") # show the route 
         plt.plot(rx2, ry2, "-r") # show the route
@@ -340,7 +283,7 @@ def main():
         plt.pause(0.001) # pause 0.001 seconds
         plt.show() # show the plot
 ```
-## result
+## Result
 <img width="570" height="450" src="https://github.com/LiTaiZong/pictures/blob/main/gif3.gif"/> 
 <img width="500" height="200" src="https://github.com/LiTaiZong/pictures/blob/main/pro11.png"/> 
 
