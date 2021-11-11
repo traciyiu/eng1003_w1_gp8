@@ -384,7 +384,14 @@ while True:
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 # Additional task 3: Comparing Algorithms
 
-By comparing A-star to other algorithms like Dijkstra and Floyd, we found that A-star is a kind of Heuristically Search Algorithms, which is more intelligent.
+**By comparing A-star with other algorithms like Dijkstra and Floyd, we found that A-star is a kind of Heuristically Search Algorithms. Astar combines two different functions toghther to find the suitable route: One is the exact cost from the starting node to the next node, and the other is the estimated cost from the next node to the goal node. We can see Astar is  an intelligent algorithm.**
+
+Below is the example output of Pythin codes using Astar or Dijkstra.
+
+<img width="400" height="280" src="https://github.com/traciyiu/eng1003_w1_gp8/blob/Zhe/Astar.jpg"/><img width="400" height="280" src="https://github.com/traciyiu/eng1003_w1_gp8/blob/Zhe/Dijkstra.jpg"/>
+
+**From above, we can see a little difference that the searching area using Astar seems to be smaller than using Dijkstra. It is because Astar will end the process once it has reach the goal node.**
+
 
 # Reflective Essay
 ### 1 Li Yunze
