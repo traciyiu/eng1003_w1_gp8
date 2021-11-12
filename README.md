@@ -166,10 +166,13 @@ for i in range(0, 20):
 
 # Task 2 Methodology, Results and Discussion
 ## **_(1）For 2variables_**
-### Methodology:
-#### Firstly,we found that when the two values are equal, the cost will be the least.
-#### Secondly,we calculate all the possible values and find that when the values equal to 20, the cost will be the least.
-#### Finally,We use linear programming to prove that the cost is the least when the values are 20.
+
+<img width="570" height="320" src="https://github.com/traciyiu/eng1003_w1_gp8/blob/Zhe/2%20variables.png"/>
+
+## Methodology:
+### Firstly,we found that when the two values are equal, the cost will be the least.
+### Secondly,we calculate all the possible values and find that when the values equal to 20, the cost will be the least.
+### Finally,We use linear programming to prove that the cost is the least when the values are 20.
 
 **How to prove:**
 
@@ -184,6 +187,12 @@ for i in range(0, 20):
 
 ## **_(2）For 6variables_**
 
+<img width="570" height="320" src="https://github.com/traciyiu/eng1003_w1_gp8/blob/Zhe/6%20variables.png"/>
+
+## Methodology:
+### This question seems to be a little difficult for us and needs a massive calculation
+### Problem is that we are not so familiar with Python language, and one of our teammate has learned some C++ knowledge, so we decided to use C++ language to handle this problem
+### 
 # task 3 Methodology, Results and Discussion
 
 <img width="570" height="320" src="https://github.com/traciyiu/eng1003_w1_gp8/blob/Zhe/image.png"/>
