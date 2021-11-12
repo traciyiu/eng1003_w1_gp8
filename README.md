@@ -228,7 +228,7 @@ int main()
 }
 ```
 
-### We used nest loop which includes 6 loops to deal with 6 variables
+### We used nest loop which includes 6 while loops to deal with the 6 variables
 ### And we put the 4 inequations into if condition
 ### Finally, we used a variable min to find the minimum value
 ## Result
