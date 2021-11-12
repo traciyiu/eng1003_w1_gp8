@@ -165,10 +165,11 @@ for i in range(0, 20):
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 
 # Task 2 Methodology, Results and Discussion
-## Methodology:
-### Firstly,we found that when the two values are equal, the cost will be the least.
-### Secondly,we calculate all the possible values and find that when the values equal to 20, the cost will be the least.
-### Finally,We use linear programming to prove that the cost is the least when the values are 20.
+## **_(1）For 2variables_**
+### Methodology:
+#### Firstly,we found that when the two values are equal, the cost will be the least.
+#### Secondly,we calculate all the possible values and find that when the values equal to 20, the cost will be the least.
+#### Finally,We use linear programming to prove that the cost is the least when the values are 20.
 
 **How to prove:**
 
@@ -180,6 +181,8 @@ for i in range(0, 20):
 **_By trying we found that when both variables are taken as 20, the total cost is the least_**
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
+
+## **_(2）For 6variables_**
 
 # task 3 Methodology, Results and Discussion
 
