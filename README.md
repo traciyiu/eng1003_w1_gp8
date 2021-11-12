@@ -165,7 +165,7 @@ for i in range(0, 20):
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 
 # Task 2 Methodology, Results and Discussion
-## **_(1）For 2variables_**
+## **_(1）For 2 variables_**
 
 <img width="570" height="320" src="https://github.com/traciyiu/eng1003_w1_gp8/blob/Zhe/2%20variables.png"/>
 
@@ -185,14 +185,61 @@ for i in range(0, 20):
 
 [![Join the chat at https://gitter.im/guodongxiaren/README](https://img.shields.io/badge/Back-readme1.0.0-red.svg)](https://github.com/traciyiu/eng1003_w1_gp8/blob/main/README.md)
 
-## **_(2）For 6variables_**
+## **_(2）For 6 variables_**
 
 <img width="570" height="320" src="https://github.com/traciyiu/eng1003_w1_gp8/blob/Zhe/6%20variables.png"/>
 
 ## Methodology:
 ### This question seems to be a little difficult for us and needs a massive calculation
 ### Problem is that we are not so familiar with Python language, and one of our teammate has learned some C++ knowledge, so we decided to use C++ language to handle this problem
-### 
+#### Below are the codes 
+```
+#include <iostream>
+using namespace std;
+int a=1, b=2, c=3, d=4, e=5, f=6, C;
+int main()
+{
+	int min = 10000;
+	for (a = 1; a < 26; a++)
+	{
+		for (b = 1; b < 26; b++)
+		{
+			for (c = 1; c < 26; c++)
+			{
+				for (d = 1; d < 26; d++)
+				{
+					for (e = 1; e < 26; e++)
+					{
+						for (f = 1; f < 26; f++)
+						{
+							C = a * (b + e) + c * (d + f) + 10;
+							if (a*b+c*d>=25 && a+c>=10 && b+d>=10 && e+f >=10 && min>C)
+							{
+								min = C;
+								cout << "C=a(b+e)+c(d+f)+10  =>  " << a << "*(" << b << "+" << e << ") + " << c << "*(" << d << "+" << f << ") +10 = " << C << endl;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+}
+```
+
+### We used nest loop which includes 6 loops to deal with 6 variables
+### And we put the 4 inequations into if condition
+### Finally, we used a variable min to find the minimum value
+## Result
+**Below is the output:**
+
+<img width="700" height="392" src="https://github.com/traciyiu/eng1003_w1_gp8/blob/Zhe/output.png"/>
+
+### We use a, b, c, d, e, f to represent  Cf, ΔF, Ct, ΔT, ΔFa, ΔTa
+### The minimum value is just the last one, which sets Cf, ΔF, Ct, ΔT, ΔFa, ΔTa to 1, 16, 9, 1, 9, 1
+### So the minimum cost is 53
+
 # task 3 Methodology, Results and Discussion
 
 <img width="570" height="320" src="https://github.com/traciyiu/eng1003_w1_gp8/blob/Zhe/image.png"/>
